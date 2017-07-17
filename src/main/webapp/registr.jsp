@@ -72,42 +72,7 @@
             <div id="contents"class="col-xs-12 col-md-6">
                 <h1>REGISTER TO USE GAUTRAIN SERVICES:</h1></br>
                 <%@ taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
-            
-			<!--<form action="registr.htm" modelAttribute="registUser" method="POST">-->
-                <!--<form action="registUser" method="post">
-                <div class="form-group">
-                    <input placeholder="Title" type="text" name="title" style="width:250px; height:40px;"><br>
-                             
-                </div>
-                <div class="form-group">
-                    <input placeholder="First Name" name="firstNames" type="text" style="width:250px; height:40px;"><br>
-                           
-                </div>
-                <div class="form-group">
-                    <input placeholder="Surname" name="lastName" type="text" style="width:250px; height:40px;"><br>
-                             
-                </div>
-                <div class="form-group">
-                    <input placeholder="Date of Birth" name="dob" type="date" style="width:250px; height:40px;" ><br>
-                     
-                </div>
-                <div class="form-group">
-                    <input placeholder="Role" name="role" type="text" style="width:250px; height:40px;"><br>
-                             
-                </div>
-                <div class="form-group">
-                    <input placeholder="Email address" name="emailAddr" type="email" style="width:250px; height:40px;"><br> 
-                     
-                </div>
-                <div class="input-icon password">
-                    <input placeholder="Password" name="password" type="password" style="width:250px; height:40px;"><br>
-                 
-                </div>
-                <br>
-                <button type="submit" class="btn-primary" style="width:250px; height:40px;">Register</button>
-                
-            
-        </form>  -->    
+               
                     <form action="registUser" method="post">
                         <h4>Client Credentials:</h4>
 				
@@ -160,18 +125,9 @@
                             
                             <button type="button" class="btn btn-warning">RESET</button>
                             <button type="button" class="btn btn-info">CANCEL</button>
-                        </:form>-->
+                        
                         </div>
-                 <!--<form action="registr.do" modelAttribute="registUser" method="POST">  
-      <input type="text" placeholder="Title" name ="title"/>
-      <input type="Text" placeholder="First Name" name="firstNames" />
-      <input type="text" placeholder="Surname" name="lastName" />
-      <input type="Text" placeholder="DOB" name="dob" />
-      <input type="Text" placeholder="Email" name="role" />
-      <input type="password" placeholder="Password" name="password" /> 
-      <input type="Text" placeholder="Email" name="emailAddr" />
-      <input type="submit" value="Register"/>
-                    </form>-->
+                   </form>
             </div>
            
             <div id="contents2"class="col-xs-6 col-md-4">

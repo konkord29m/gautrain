@@ -1,0 +1,4 @@
+gautrain\controller\HomeController.class
+gautrain\controller\UserController.class
+gautrain\dao\UserDAO.class
+gautrain\entity\User.class
